@@ -5,7 +5,7 @@ En este respositorio, se agrupan las funciones y activiades informáticas realiz
 Con el siguiente código puede usted cargar las funciones relativas a los cálculos de interés simple:
 
 ```{r}
-source("https://raw.githubusercontent.com/OscarArciniegaPatricio/MatematicasFinancieras/refs/heads/main/FormualasInteresSimple.R")
+source("https://raw.githubusercontent.com/OscarArciniegaPatricio/MatematicasFinancieras/refs/heads/main/FormualasInteresSimple2.R")
 ```
 
 A continuación se da ejemplo del uso de las formulas
