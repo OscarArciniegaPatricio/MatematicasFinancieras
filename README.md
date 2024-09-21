@@ -30,7 +30,7 @@ ValorFuturo
 ```
 ## Cálculo para el valor actual
 Se tienen los siguientes valores:
-$VF$=1140
+$VF$=$1,140.00
 $I$=24% anualizado
 $r$= 2.00% mensual
 $t$= 7 meses
