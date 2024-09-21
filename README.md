@@ -45,7 +45,7 @@ nPeriodos=7
 valorActual=valorActualSimple(VF=ValorFuturo,r=tasaPeriodo,t=nPeriodos)
 
 # Imprimo el resultado:
-ValorActual
+valorActual
 ```
 
 ## Cálculo para la tasa de interés
