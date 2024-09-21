@@ -47,3 +47,42 @@ valorActual=valorActualSimple(VF=ValorFuturo,r=tasaPeriodo,t=nPeriodos)
 # Imprimo el resultado:
 ValorActual
 ```
+
+## Cálculo para la tasa de interés
+Se tienen los siguientes valores:
+$VF$=$1,140.00
+$VA$=$1,000.00
+$I$=24% anualizado
+$t$= 7 meses
+
+```{r}
+# Creamos objetos con valores de entrada:
+ValorFuturo=1140
+ValorActual=1000
+nPeriodos=7
+
+# Calculamos el valor actual
+TasaInteres=TasaInteresSimple(VF=ValorFuturo,VA=ValorActual,t=nPeriodos)
+
+# Imprimo el resultado:
+TasaInterés
+```
+## Cálculo para el tiempo (t)
+Se tienen los siguientes valores:
+$VF$=$1,140.00
+$VA$=$1,000.00
+$I$=24% anualizado
+$r$= 2.00% mensual
+
+```{r}
+# Creamos objetos con valores de entrada:
+ValorFuturo=1140
+ValorActual=1000
+tasaPeriodo=0.02
+
+# Calculamos el valor actual
+Tiempo=TiempoSimple(VF=ValorFuturo,VA=ValorActual,r=tasaPeriodo)
+
+# Imprimo el resultado:
+Tiempo
+```
