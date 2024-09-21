@@ -30,7 +30,20 @@ ValorFuturo
 ```
 ## Cálculo para el valor actual
 Se tienen los siguientes valores:
-$VF$=
-$I$=
-$r$=
-$t$=
+$VF$=1140
+$I$=24% anualizado
+$r$= 2.00% mensual
+$t$= 7 meses
+
+```{r}
+# Creamos objetos con valores de entrada:
+ValorFuturo=1140
+tasaPeriodo=0.02
+nPeriodos=7
+
+# Calculamos el valor actual
+valorActual=valorActualSimple(VF=ValorActual,r=tasaPeriodo,t=nPeriodos)
+
+# Imprimo el resultado:
+ValorActual
+```
