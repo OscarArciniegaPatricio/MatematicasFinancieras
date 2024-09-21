@@ -28,3 +28,9 @@ ValorFuturo=valorFinalSimple(VA=Valoractual,r=tasaPeriodo,t=nPeriodos)
 # Imprimo el resultado:
 ValorFuturo
 ```
+## Cálculo para el valor actual
+Se tienen los siguientes valores:
+$VF$=
+$I$=
+$r$=
+$t$=
