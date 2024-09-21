@@ -61,11 +61,11 @@ ValorFuturo=1140
 ValorActual=1000
 nPeriodos=7
 
-# Calculamos el valor actual
+# Calculamos la tasa de interés
 TasaInteres=TasaInteresSimple(VF=ValorFuturo,VA=ValorActual,t=nPeriodos)
 
 # Imprimo el resultado:
-TasaInterés
+TasaInteres
 ```
 ## Cálculo para el tiempo (t)
 Se tienen los siguientes valores:
@@ -80,7 +80,7 @@ ValorFuturo=1140
 ValorActual=1000
 tasaPeriodo=0.02
 
-# Calculamos el valor actual
+# Calculamos el tiempo
 Tiempo=TiempoSimple(VF=ValorFuturo,VA=ValorActual,r=tasaPeriodo)
 
 # Imprimo el resultado:
