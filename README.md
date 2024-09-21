@@ -42,7 +42,7 @@ tasaPeriodo=0.02
 nPeriodos=7
 
 # Calculamos el valor actual
-valorActual=valorActualSimple(VF=ValorActual,r=tasaPeriodo,t=nPeriodos)
+valorActual=valorActualSimple(VF=ValorFuturo,r=tasaPeriodo,t=nPeriodos)
 
 # Imprimo el resultado:
 ValorActual
